@@ -1,6 +1,6 @@
 <template>
 	<div class="tree-chart" @contextmenu.prevent style="position: relative">
-		<v-btn @click="back" style="position: absolute">Back</v-btn>
+		<v-btn @click="back" style="position: absolute; z-index: 1">Back</v-btn>
 		<VueECharts
 			:option="option"
 			@click.right="handleClick"
