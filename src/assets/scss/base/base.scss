@@ -1,0 +1,140 @@
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.color--white {
+	color: #ffffff;
+}
+
+.relative {
+	position: relative;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.user-select-none {
+	user-select: none;
+}
+
+.has-border {
+	border: 1px solid #d9e3eb;
+	border-radius: 2px;
+}
+
+.has-box-shadow {
+	box-shadow: 0px 1px 3px rgba(62, 62, 60, 0.2);
+	border-radius: 2px;
+}
+
+.ellipsis-one-line {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ellipsis-two-line {
+	@include ellipsisInLines(2);
+}
+
+.bg {
+	background: #fbfcfd;
+}
+
+.bg-light {
+	background: #f6f7f8;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-primary {
+	background: $color--primary;
+}
+
+.bg-transparent {
+	background: transparent;
+}
+
+.v-tooltip__content {
+	padding: 0 8px !important;
+	font-size: 12px !important;
+}
+
+.v-list-item {
+	min-height: 30px !important;
+	padding: 0 12px !important;
+	.v-icon {
+		width: 24px;
+	}
+}
+
+.v-input--checkbox {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.pointer-events-none {
+	pointer-events: none;
+}
+
+.text-select-none {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.action-hover:hover {
+	color: $color--primary !important;
+	i {
+		color: $color--primary !important;
+	}
+}
+
+.v-data-table-header {
+	background: #f2f2f2;
+}
+
+.v-card__actions {
+	padding: 0 24px 16px 24px;
+}
+
+.v-text-field--outlined {
+	border-radius: 2px !important;
+}
+
+.base-content__max-width {
+	max-width: 1140px;
+}
+
+.letter-spacing-0 {
+	letter-spacing: 0;
+}
+
+.action-header {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 56px);
+  height: 49px;
+  z-index: 2;
+  background: #f2f2f2;
+  border: 1px solid #e6e4eb;
+  border-left-color: #f2f2f2;
+	border-radius: 4px 4px 0 0;
+}
